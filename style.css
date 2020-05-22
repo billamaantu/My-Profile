@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.line1{
+    font-size: 50px;
+    color: green;
+}
+
+#h1{
+    text-align: center;
+    margin: 0px;
+    font-size: 50px;
+    text-shadow: 1px 1px 8px rgb(102, 102, 102);
+}
+#h1 span{
+    color: green;
+}
+.main a{
+
+display: flex;
+flex-wrap: wrap;
+text-decoration: none;
+align-items: center;
+justify-content: space-around; background-color: black;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+font-style: italic;
+height: 50px;
+
+}
+.main a:hover{
+text-decoration: none;
+color: white;
+}
+.main ul{
+list-style: none;
+display: flex;
+
+}
+
+.main li{
+width: 100%;
+}
+
+.main a:hover{
+background-color: green;
+}
+
+.main-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}  
+
+/* details */
+
+#detail{
+    
+    text-align: justify;
+    width: 70%;
+    
+} 
+#detail span{
+    color: green;
+}
+
+#box {
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 32px;
+}
+
+
+
+#box td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#box #th {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+#box td a{
+    text-decoration: none;
+    color: black;
+}
+
+#box td:hover{
+background-color: green;
+
+}
+
+#box td a:hover{
+    
+    color: white;
+}
+
+.city img{
+    width: 100%;
+}
+
+.main-black{
+    margin-top: -5px;
+}
+
+.black{
+    text-align: center;
+    background-color: black;
+}
+.black h3{
+color: white;
+padding-top: 30px;
+}
+.black p{
+    color: white;
+}
+.black p span{
+    color: green;
+}
+
+.sub .first{
+    width: 320px;
+    height: 40px;
+}
+
+.sub .first1{
+    width: 210px;
+    height: 40px;
+}
+
+.sub button{
+    color: white;
+    height: 40px;
+    width: 110px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: green;
+    border-color: green;
+}
+
+
+
+.sub button:active{
+    background-color: blue;
+}
+
+.black2{
+    background-color: black;
+}
+.black2 h6{
+    color: white;
+    font-size: 15px;
+}
+.black2 h6 span{
+    color: green;
+}
+
+.black2 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -13px;
+}
+.black2 a:hover{
+    text-decoration: none;
+    color: green;
+}
+
+.main-black2{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.main-black .black-box1{
+    
+    width: 250px;
+    height: 150px;
+    border: 2px solid green;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.main-black .black-box2{
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    border: 2px solid green;
+    background-color: black;
+    color: white;
+    padding-top: 32px;
+}
+
+.main-black .black-box3{
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    border: 2px solid green;
+    background-color: black;
+    color: white;
+    padding-top: 32px;
+}
+
+.main-black2 .fa{
+    color: green;
+    font-size: 30px;
+}
+
+.main-policy {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    background-color: black;
+}
+.main-policy .policy-logo{
+    font-size: 35px;
+    position: relative;
+    top: -15px;
+    color: green;
+}
+
+.main-policy h4{
+    color: white;
+}
+
+.main-policy h4 span{
+    color: green;
+}
+ .social-media{
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 30px;
+     
+ }
+
+ .social-media .fa{
+     color: white;
+ }
+
+ .fb{
+    height: 30px;
+    width: 30px;
+    border: 1px solid green;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.fb:hover{
+    background-color: blue;
+}
+
+.instagram{
+    height: 30px;
+    width: 30px;
+    border: 1px solid green;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.instagram:hover{
+    background-color: yellowgreen;
+}
+
+.twitter{
+    height: 30px;
+    width: 30px;
+    border: 1px solid green;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.twitter:hover{
+    background-color: blue;
+}
+
+.youtube{
+    height: 30px;
+    width: 30px;
+    border: 1px solid green;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.youtube:hover{
+    background-color: red;
+}
+
+/* .privacy a{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 750px;
+}
+.privacy a:hover{
+    text-decoration: none;
+    color: green;
+} */ 
+
+.houses{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.houses a{
+    color: black;
+    font-size: 20px;
+}
+.houses span{
+    color: green;
+}
